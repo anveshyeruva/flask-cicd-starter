@@ -13,3 +13,5 @@ docker run --rm -p 8080:8080 flask-cicd-starter
 # curl http://localhost:8080/health
 
 Test run trigger1
+
+Test run trigger2
