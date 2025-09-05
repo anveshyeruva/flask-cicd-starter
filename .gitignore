@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Docker related
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Docker build files
+docker/*.pid
+docker/*.log
+
+# Ignore Docker Compose override files
+docker-compose.override.yml
+
+# Docker volumes
+volumes/
+
