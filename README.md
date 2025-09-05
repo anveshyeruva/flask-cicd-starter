@@ -15,3 +15,5 @@ docker run --rm -p 8080:8080 flask-cicd-starter
 Test run trigger1
 
 Test run trigger2
+
+Test run trigger3
