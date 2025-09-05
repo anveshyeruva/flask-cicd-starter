@@ -13,4 +13,3 @@ python app/app.py
 docker build -t flask-cicd-starter -f docker/Dockerfile .
 docker run --rm -p 8080:8080 flask-cicd-starter
 # curl http://localhost:8080/health
-trigger
