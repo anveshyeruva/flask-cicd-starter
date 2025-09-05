@@ -1,3 +1,5 @@
+![CI](https://github.com/anveshyeruva/flask-cicd-starter/actions/workflows/ci.yml/badge.svg)
+
 # Flask CI/CD Starter
 
 Tiny Flask service exposing `/health` for CI/CD practice.
@@ -11,9 +13,3 @@ python app/app.py
 docker build -t flask-cicd-starter -f docker/Dockerfile .
 docker run --rm -p 8080:8080 flask-cicd-starter
 # curl http://localhost:8080/health
-
-Test run trigger1
-
-Test run trigger2
-
-Test run trigger3
